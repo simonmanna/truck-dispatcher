@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // Sets the base directory for module resolution
+    "paths": {
+      "@/*": ["src/*"] // Maps @/* to ./src/* for imports
+    },
+    "module": "esnext", // Supports modern JavaScript module syntax
+    "moduleResolution": "bundler", // Matches Next.js bundler behavior
+    "jsx": "preserve", // Tells Next.js to preserve JSX for processing
+    "allowJs": true // Allows JavaScript files to be included
+  },
+  "include": ["**/*.js", "**/*.jsx"], // Includes all .js and .jsx files
+  "exclude": ["node_modules"] // Excludes node_modules
+}
