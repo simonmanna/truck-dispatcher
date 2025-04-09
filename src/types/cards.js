@@ -1,7 +1,1 @@
-export 
-  name?;
-  role?;
-  cardImageSrc?;
-  cardTitle?;
-  cardContent?;
-};
+export const Cards = {};

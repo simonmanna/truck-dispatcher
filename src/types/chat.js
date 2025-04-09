@@ -1,7 +1,1 @@
-export 
-  name;
-  text;
-  time;
-  textCount;
-  dot;
-};
+export const Chat = {};

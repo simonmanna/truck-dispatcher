@@ -9,9 +9,11 @@ var __importDefault =
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.metadata = void 0;
 const react_1 = __importDefault(require("react"));
-const FormElements_1 = __importDefault(require("@/components/FormElements"));
+const FormElements_1 = __importDefault(
+  require("../../../components/FormElements"),
+);
 const DefaultLayout_1 = __importDefault(
-  require("@/components/Layouts/DefaultLayout"),
+  require("../../../components/Layouts/DefaultLayout"),
 );
 exports.metadata = {
   title: "Next.js Form Elements | TailAdmin - Next.js Dashboard Template",

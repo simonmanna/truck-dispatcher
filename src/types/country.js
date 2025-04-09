@@ -1,4 +1,1 @@
-export 
-  flag;
-  percentage;
-};
+export const Country = {};

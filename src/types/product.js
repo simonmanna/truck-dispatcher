@@ -1,7 +1,1 @@
-export 
-  name;
-  category;
-  price;
-  sold;
-  profit;
-};
+export const Product = {};

@@ -1,4 +1,1 @@
-export 
-  id;
-  text;
-};
+export const FAQ = {};

@@ -1,7 +1,1 @@
-export 
-  name;
-  email;
-  project;
-  duration;
-  status;
-};
+export const Lead = {};

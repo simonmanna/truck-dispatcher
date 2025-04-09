@@ -1,7 +1,1 @@
-export 
-  name;
-  visitors;
-  revenues;
-  sales;
-  conversion;
-};
+export const Brand = {};

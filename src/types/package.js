@@ -1,5 +1,1 @@
-export 
-  price;
-  invoiceDate;
-  status;
-};
+export const Package = {};

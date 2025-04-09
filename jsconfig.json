@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "baseUrl": ".", // Sets the base directory for module resolution
+    "baseUrl": "src", // Sets the base directory for module resolution
     "paths": {
-      "@/*": ["src/*"] // Maps @/* to ./src/* for imports
+      "@/*": ["*"] // Maps @/* to ./src/* for imports
     },
     "module": "esnext", // Supports modern JavaScript module syntax
     "moduleResolution": "bundler", // Matches Next.js bundler behavior
