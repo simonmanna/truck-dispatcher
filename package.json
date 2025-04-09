@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.49.4",
     "apexcharts": "^4.5.0",
     "flatpickr": "^4.6.13",
     "jsvectormap": "^1.6.0",
