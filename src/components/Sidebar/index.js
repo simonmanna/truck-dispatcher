@@ -37,8 +37,8 @@ const menuGroups = [
             fill: "",
           }),
         ),
-        label: "Dashboard",
-        route: "#",
+        label: "Dashboards",
+        route: "/dasboard",
       },
       {
         // Orders: A truck icon for transportation orders
