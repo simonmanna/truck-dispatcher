@@ -3,7 +3,7 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { createDispatch } from "@/lib/dispatches";
+import { createDispatch } from "../../lib/dispatches";
 import { createClient } from "@supabase/supabase-js";
 
 // Initialize Supabase client for fetching related data

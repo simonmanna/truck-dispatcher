@@ -1,6 +1,8 @@
 // 3. File: app/api/drivers/[id]/route.js - API routes for specific driver
 import { NextResponse } from "next/server";
-import { supabase } from "@/lib/supabase";
+//import { supabase } from "../../../lib/supabase";
+//import { supabase } from "../../../lib/supabase";
+import { supabase } from "../../../lib/supabaseClient";
 
 // GET specific driver
 export async function GET(request, { params }) {
